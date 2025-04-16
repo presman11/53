@@ -1,13 +1,21 @@
 {
-  "name": "52 Nation",
+  "name": "52bOT",
   "short_name": "52",
-  "start_url": "index.html",
+  "start_url": ".",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
-  "icons": [{
-    "src": "icon.png",
-    "type": "image/png",
-    "sizes": "512x512"
-  }]
+  "background_color": "#111",
+  "theme_color": "#ffd700",
+  "description": "An intelligent trading app with advanced security and multilingual support.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
