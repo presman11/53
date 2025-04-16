@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>52 Nation</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="theme-color" content="#ffd700" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <title>52 BOT</title>
 </head>
 <body>
-  <h1>Karibu 52 Nation</h1>
-  <p>Signals, Alerts & Trading Control for Gold & BTC</p>
+  <div class="container">
+    <div class="language-switch">
+      <label for="languageSelect">Language:</label>
+      <select id="languageSelect">
+        <option value="en" selected>English</option>
+        <option value="sw">Kiswahili</option>
+        <option value="fr">Français</option>
+        <!-- Add more languages later -->
+      </select>
+    </div>
+
+    <h1 id="title">Welcome to 52bOT</h1>
+    <p id="description">An intelligent trading app with advanced security. Start with test mode or go live to earn.</p>
+    <button id="startTest">Start Test</button>
+    <p class="note" id="note">This is the initial version. More features coming soon...</p>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
