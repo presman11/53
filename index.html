@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="theme-color" content="#ffd700" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="stylesheet" href="style.css" />
-  <title>52 BOT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>52bOT - Smart Trading App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <div class="language-switch">
-      <label for="languageSelect">Language:</label>
-      <select id="languageSelect">
-        <option value="en" selected>English</option>
-        <option value="sw">Kiswahili</option>
-        <option value="fr">Français</option>
-        <!-- Add more languages later -->
-      </select>
+    <h1>Welcome to 52bOT</h1>
+    <p>An intelligent trading app with advanced security. Start with test mode or go live to earn.</p>
+    
+    <div class="buttons">
+      <button onclick="startTest()">Start Test</button>
+      <button onclick="startLive()">Go Live</button>
     </div>
 
-    <h1 id="title">Welcome to 52bOT</h1>
-    <p id="description">An intelligent trading app with advanced security. Start with test mode or go live to earn.</p>
-    <button id="startTest">Start Test</button>
-    <p class="note" id="note">This is the initial version. More features coming soon...</p>
+    <h2>Features & EA Progress</h2>
+    <div id="features">
+      <h3>STATUS YA UTENGENEZAJI: “52 NATION” EA for MT5</h3>
+
+      <p><strong>Phase 1: Setup ya Msingi</strong></p>
+      <ul>
+        <li>Jina la EA: 52 Nation</li>
+        <li>Platform: MT5</li>
+        <li>Account Locking: Locked kwenye 5034114264 (bure yako tu)</li>
+        <li>Risk Control: Stop trading ikiwa loss itafikia -$30</li>
+        <li>Lot size default: 0.05 (inaweza kubadilishwa)</li>
+        <li>Trade frequency: Kila sekunde 30, max trades 10</li>
+        <li>Alert system: Email setup (Telegram/WhatsApp zitaongezwa baada ya test)</li>
+      </ul>
+
+      <p><strong>Phase 2: Logic ya Profit (In Progress)</strong></p>
+      <ul>
+        <li>Price action, market volatility, custom filters</li>
+        <li>Target: $600–$1000 kwa $100 bila kuvuka limit</li>
+      </ul>
+
+      <p><strong>Phase 3: Security System</strong></p>
+      <ul>
+        <li>License Key input</li>
+        <li>Account lock kwa watumiaji</li>
+        <li>Expiry date (optional)</li>
+        <li>EA yako binafsi haina restriction</li>
+      </ul>
+
+      <p><strong>Phase 4: Interface & Options Panel</strong></p>
+      <ul>
+        <li>Edit lot size</li>
+        <li>Edit max trades</li>
+        <li>Edit risk limit</li>
+        <li>Edit time difference</li>
+      </ul>
+    </div>
+
+    <p class="note">This is the initial version. More features coming soon...</p>
   </div>
 
   <script src="app.js"></script>
